@@ -101,8 +101,8 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
-        var firstFeed;
-        var secondFeed;
+        var firstFeed,
+            secondFeed;
         beforeEach(function(done) {
             loadFeed(0, function() {
                 firstFeed = document.getElementsByClassName('feed')[0].innerHTML;
