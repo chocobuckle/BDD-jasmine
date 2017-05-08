@@ -89,7 +89,8 @@ $(function() {
          });
 
          it('Feed container should contain at least one entry after loadFeed() completes', function(done) {
-            var feedContainer = document.getElementsByClassName('entry');
+            var feedContainer = document.querySelectorAll('.feed .entry');
+            console.log(feedContainer);
             expect(feedContainer.length).toBeGreaterThan(0);
             done();
          });
