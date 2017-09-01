@@ -1,4 +1,4 @@
-# 'Feed Reader Testing' Project
+# BDD/Jasmine
 
 This project demonstrates my ability to write effective tests against a pre-existing application using the Jasmine BDD framework. Submitted as a project for the Udacity Front-End Developer Nanodegree program.
 
